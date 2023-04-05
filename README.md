@@ -1,12 +1,37 @@
-# password_validater
+# To-Do List
 
-The Password Strength Checker is a simple Rust program that allows users to check the strength of their passwords. Users can enter a password and the program will calculate a score based on its length, use of special characters, numbers, uppercase and lowercase letters. The program will then output a strength rating for the password.
+A simple command-line to-do list application written in Rust. This application allows you to add, list, and complete tasks, which are stored in a JSON file.
 
-# Getting Started
-To use the Password Strength Checker, you will need to have Rust installed on your computer. If you haven't installed Rust yet, you can download it from the official Rust website: https://www.rust-lang.org/tools/install
+## Features
 
-Once you have Rust installed, you can download the project source code from this repository. To run the program, navigate to the project directory in the terminal and run the following command: cargo run
+- Add tasks
+- List tasks with their completion status
+- Mark tasks as completed
+- Persistent storage in a JSON file
 
-# Reference:
+## Getting Started
 
+### Prerequisites
+
+- [Rust](https://www.rust-lang.org/tools/install)
+
+### Running the Application
+
+1. Clone the repository:
+git clone [https://github.com/yourusername/to-do-list.git](https://github.com/handsomezmx/to-do-list.git)
+cd to-do-list
+
+2. Run the application: cargo run
+## Usage
+
+The application displays a menu with the following options:
+
+1. List tasks
+2. Add task
+3. Complete task
+4. Exit
+
+Enter the corresponding number of the desired action and follow the prompts.
+
+## reference
 Chatgpt
